@@ -1,0 +1,86 @@
+[
+  {
+    "id": "BENIGN-001",
+    "type": "text",
+    "content": "Hi Alex, hope you're having a great week! Let's touch base tomorrow morning at 10 AM regarding the product roadmap.",
+    "ground_truth": "BENIGN",
+    "category": "legitimate_communication"
+  },
+  {
+    "id": "BENIGN-002",
+    "type": "text",
+    "content": "Your appointment with Dr. Henderson is confirmed for Friday, October 10th at 3:30 PM. Reply 1 to confirm or 2 to reschedule.",
+    "ground_truth": "BENIGN",
+    "category": "legitimate_notification"
+  },
+  {
+    "id": "BENIGN-003",
+    "type": "url",
+    "content": "https://www.paypal.com/signin",
+    "ground_truth": "BENIGN",
+    "category": "official_domain"
+  },
+  {
+    "id": "BENIGN-004",
+    "type": "text",
+    "content": "GitHub security update: Your personal access token 'deploy-key' will expire in 14 days. You can regenerate it in your account settings.",
+    "ground_truth": "BENIGN",
+    "category": "legitimate_security_notice"
+  },
+  {
+    "id": "BENIGN-005",
+    "type": "text",
+    "content": "Hey dad, I'm heading over to the grocery store now. Do you need milk or eggs before I head back home?",
+    "ground_truth": "BENIGN",
+    "category": "personal_message"
+  },
+  {
+    "id": "SCAM-001",
+    "type": "text",
+    "content": "URGENT NOTICE: Your bank account will be suspended within 12 hours. Enter your password and security code immediately at http://secure-chase-update.xyz/login to reactivate.",
+    "ground_truth": "SCAM",
+    "category": "credential_phishing"
+  },
+  {
+    "id": "SCAM-002",
+    "type": "text",
+    "content": "Congratulations! You have been selected as the grand winner of the 2026 International Lottery. Wire transfer fee of $250 required to release your $1,000,000 inheritance prize.",
+    "ground_truth": "SCAM",
+    "category": "advance_fee_lottery"
+  },
+  {
+    "id": "SCAM-003",
+    "type": "text",
+    "content": "USPS: Your package delivery has been suspended due to an incomplete delivery address and unpaid customs fee of $2.49. Reschedule delivery here: http://usps-parcel-tracking.top",
+    "ground_truth": "SCAM",
+    "category": "delivery_impersonation"
+  },
+  {
+    "id": "SCAM-004",
+    "type": "url",
+    "content": "http://paypal-security-verification.xyz/login/verify",
+    "ground_truth": "SCAM",
+    "category": "brand_spoofing"
+  },
+  {
+    "id": "SCAM-005",
+    "type": "text",
+    "content": "Guaranteed 100% daily profit! Join our automated Bitcoin mining VIP club. Send cryptocurrency to our wallet now to double your money within 24 hours.",
+    "ground_truth": "SCAM",
+    "category": "cryptocurrency_investment"
+  },
+  {
+    "id": "SCAM-006",
+    "type": "text",
+    "content": "Final notice: Your \u200Bаccount\u200B has been restricted. Share your OTP and one-time password to verify your identity immediately.",
+    "ground_truth": "SCAM",
+    "category": "adversarial_obfuscation"
+  },
+  {
+    "id": "SCAM-007",
+    "type": "url",
+    "content": "http://192.168.1.100/signin@user:pass",
+    "ground_truth": "SCAM",
+    "category": "ip_obfuscation"
+  }
+]
