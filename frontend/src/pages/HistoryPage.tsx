@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
-import { AlertTriangle, ChevronLeft, ChevronRight } from 'lucide-react'
+import { Search, Clock, RefreshCw } from 'lucide-react';
 import { historyService } from '../services/api'
 import Sidebar from '../components/Sidebar'
 
